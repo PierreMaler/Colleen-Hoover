@@ -654,7 +654,7 @@
   margin-top: -0.8vh;
   margin-bottom: -0.8vh;
   z-index: 200000;
-  background-color: #1c3553;
+  border-color: #fdd365;
 }
 
 .screenmobile3 {
@@ -2118,6 +2118,55 @@ width: 80%;
 }
 
 .boutoncommander:hover {
+  color: #fdd365;
+  background-color: #1c3553;
+  border-color: #fdd365;
+}
+
+.boutoncommandercarrousel {
+  color: #fdd365;
+  cursor: pointer;
+  font-size: 3vw;
+  padding-right: 0.8vw;
+  padding-left: 0.8vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-color: #fdd365;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 25vw;
+  position: absolute;
+  margin-top: 39vw;
+  z-index: 45;
+  background-color: #1c3553;
+}
+
+.boutoncommandercarrousel:hover {
+  color: #fdd365;
+  background-color: #1c3553;
+  border-color: #fdd365;
+}
+
+.boutoncommandercenter{
+  color: #fdd365;
+  cursor: pointer;
+  font-size: 3vw;
+  padding-right: 0.8vw;
+  padding-left: 0.8vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-color: #fdd365;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 25vw;
+  position: absolute;
+  margin-top: 55vw;
+  margin-left: 36%;
+  z-index: 100000000000000000000000;
+  background-color: #1c3553;
+}
+
+.boutoncommandercenter:hover {
   color: #fdd365;
   background-color: #1c3553;
   border-color: #fdd365;

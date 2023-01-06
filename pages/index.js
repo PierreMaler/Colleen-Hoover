@@ -146,9 +146,9 @@ export default function Home() {
 
                 <img className={styles.temple} src="/images/logo-menu2.png" onClick={showSidebar} />
 
-<button className={styles.menu__item2mobile_preco_desktop} onClick={gotoprecommande}>
+{/* <button className={styles.menu__item2mobile_preco_desktop} onClick={gotoprecommande}>
                 Commander
-              </button>
+              </button> */}
 
 
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
@@ -482,7 +482,7 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
           />
 
 <div className={styles.temple}>
-<button className={styles.menu__item2mobile_preco} onClick={gotosynopsismobile}>Commander</button>
+{/* <button className={styles.menu__item2mobile_preco} onClick={gotosynopsismobile}>Commander</button> */}
 </div>
 
           <div className='menu-barsmobile'></div>
@@ -540,6 +540,10 @@ par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.</p>
               src="/images/2022_NR_A-TOUT-JAMAIS_3D_RVB.png"
               alt="picture of the author"
               />
+            
+              <button className={styles.boutoncommandercenter } ><a  href='https://cutt.ly/XTDsJvz' target="_blank">
+                Commander
+              </a> </button>
                 <h2mobile3>À tout jamais</h2mobile3>
                 <p className={styles.rachelpresentationmobile}>Lily, depuis que sa fille Emerson est née, lui a promis que le cycle de la violence s'arrêterait avec elles. Que jamais plus, les femmes de leur famille n'endureraient des abus. Alors elle a pris la décision de quitter son mari et père de sa petite fille. Elle ne s'attendait pas à croiser Atlas, son amour d'adolescente par hasard, et elle ne sait pas quelle place il pourrait occuper dans sa vie. A-telle seulement envie de le revoir ? D'avoir à nouveau une vie sentimentale ? De recommencer sa vie et de croire à l'amour éternel, elle qui a appris de la plus dure des façons qu'il était bien difficile à trouver. Atlas n'est plus du tout le même que l'adolescent en perdition qu'elle a connu. Il a un restaurant, a passé de longues années loin d'elle. Leur histoire peut-elle recommencer là où elle s'était arrêtée ?</p>
 
@@ -563,7 +567,7 @@ par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.</p>
 
           <section className={styles.screenmobile} ref={videosmobile}>
           <div className={styles.paragraphmobile3}>
-                <h2mobile>Personnages</h2mobile>
+                <h2mobile>Les nouveautés</h2mobile>
               </div>
 
               <ImageSliderMobile slides={SliderData}/>
@@ -573,9 +577,9 @@ par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.</p>
 
           <section className={styles.screenmobileend} ref={precommandemobile}>
           <div className={styles.paragraphmobile}>
-                  <h2mobile4>Le phénomène <br/><span className="italique">Lore Olympus</span></h2mobile4>
+                  <h2mobile4>Le phénomène <br/>Colleen Hoover</h2mobile4>
          
-                  <p>
+                  <p className={styles.rachelpresentationmobile}>
                   Avec ses 300 millions de vues sur Webtoon et ses 9,72 étoiles, il s’agit d’un des webcomics anglophones les plus populaires du moment ! Son succès vient d’un mélange réussi entre la réécriture moderne de la mythologie, son humour et le développement de thèmes adultes, comme les violences sexuelles et la dépression. Bien qu’elle se concentre sur le dieu des Enfers et la déesse du Printemps, la série raconte également l’histoire de plusieurs membres du Panthéon, à savoir Éros, Artémis, Héra, Aphrodite, Apollon et Zeus. Leurs histoires, mêlées à celle des héros principaux, forment un récit profond et varié. Entre fastes divins et sujets sérieux, le style du dessin magnifie l’ensemble.
                   </p>
                 </div>
@@ -606,6 +610,17 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
           {/* <a className={styles.lienmobile} href='https://cutt.ly/XTDsJvz'>
                 Commander
               </a> */}
+
+
+              
+<img className={styles.bgimage2} src="/images/bg/bloc55m.jpg" alt="background image for commands" />
+          </section>
+          <section className={styles.screenmobile} ref={videosmobile}>
+          <div className={styles.paragraphmobile3}>
+                <h2mobile>Les nouveautés</h2mobile>
+              </div>
+
+              <ImageSliderMobile slides={SliderData}/>
               <footer className={styles.footermobile}>
   <p>
     <a href='https://www.hugoetcie.fr/' >© 2023 Hugo Publishing</a>
@@ -619,9 +634,8 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
     
   </p>
 </footer>
-
-              
-<img className={styles.bgimage2} src="/images/bg/bloc55m.jpg" alt="background image for commands" />
+          
+              <img className={styles.bgimage} src="/images/bg/bloc66m.jpg" alt="background image for videos"/>
           </section>
 
           {/* <section className={styles.screenmobile} ref={synopsismobile}>

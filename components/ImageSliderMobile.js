@@ -78,9 +78,12 @@ const ImageSliderMobile = ({slides}) => {
                     <div className={index === current ? 'slide activemobile' : 'slidemobile'} key={index}>
                         {index === current && (<div className='slider-image-containermobile'>
                         
-                        <img className='slider-imagemobile' src={slide.image} alt="travel imagemobile" />
+                        <img className='slider-imagemobile' src={slide.image} alt="travel imagemobile" />                        <button className={styles.boutoncommandercarrousel } ><a  href={slide.link} target="_blank">
+                Commander
+              </a> </button>
                         <div className='slider-textmobile'>
-                        <h3>{slide.name}</h3>
+                        <h3mobile>{slide.name}</h3mobile>
+
                         <p className='slider-descriptionmobile' >{slide.description}</p>
                         </div>
                         

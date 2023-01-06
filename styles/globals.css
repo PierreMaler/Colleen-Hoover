@@ -73,7 +73,7 @@ h2mobile2 {
 h2mobile3 {
   font-size: 7vw;
   margin-bottom: 1vh;
-  margin-top: 0;
+  margin-top: 8vh;
   /* text-shadow: 3px 6px 2px #00000081; */
   display: inline;
   text-align: center;
@@ -89,16 +89,16 @@ h2mobile4 {
 
 
 h3 {
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   margin-bottom: 1rem;
   margin-top: 1rem;
   color: #1c3553;
 }
 
 h3mobile {
-  font-size: 4vm;
-  margin-bottom: 1vm;
-  margin-top: 1vm;
+  font-size: 5vw;
+  margin-bottom: 1vw;
+  margin-top: 28vh;
   text-align: center;
 }
 
@@ -137,7 +137,7 @@ h3mobile {
 .nowrap {
   white-space: nowrap;
 }
-.slidermobile {
+/* .slidermobile {
   width: 100vw;
   position: absolute;
   left: auto;
@@ -147,6 +147,18 @@ h3mobile {
   z-index: 2;
   margin: auto;
   margin-top: 17vh;
+} */
+
+.slidermobile {
+  width: 100vw;
+  position: absolute;
+  left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin: auto;
+  margin-top: -13vh;
 }
 
 .tailleintro {
@@ -338,7 +350,7 @@ span {
 }
 
 .slider-imagemobile {
-  width: 53%;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
 }
