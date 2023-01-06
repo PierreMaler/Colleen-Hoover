@@ -6,7 +6,7 @@ import ImageSliderMobile from "../components/ImageSliderMobile";
 import { SliderData } from "../components/SliderData";
 import  { Breakpoint, BreakpointProvider } from 'react-socks';
 import ResponsiveePlayer from "../components/ResponsivePlayer";
-import {TiSocialFacebookCircular, TiSocialInstagram} from 'react-icons/ti'
+import {TiSocialFacebookCircular, TiSocialInstagram} from 'react-icons/ti';
 
 
 export default function Home() {

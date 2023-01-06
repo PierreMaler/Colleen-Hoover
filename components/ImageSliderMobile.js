@@ -51,7 +51,7 @@ const ImageSliderMobile = ({slides}) => {
             <div id='fleches' className={styles.fleches}> 
             <div className={styles.flecheleft}>
                 <lottie-interactive
-                    path="/animations/flechegauche.json"
+                    path="/animations/flechepreviousbleu.json"
                     autoplay
                     loop
                     onClick={prevSlide}
@@ -59,7 +59,7 @@ const ImageSliderMobile = ({slides}) => {
             </div>
             <div className={styles.flecheright}>
                 <lottie-interactive
-                    path="/animations/flechedroite.json"
+                    path="/animations/flechenextbleu.json"
                     autoplay
                     loop
                     onClick={nextSlide}

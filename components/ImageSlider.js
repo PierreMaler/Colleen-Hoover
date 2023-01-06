@@ -57,7 +57,7 @@ const ImageSlider = ({slides}) => {
                     onClick={prevSlide}
                 />
             </div>
-            <div className={styles.flecheright}>
+            <div className={styles.flecheright} >
                 <lottie-interactive
                     path="/animations/flechenextbleu.json"
                     autoplay

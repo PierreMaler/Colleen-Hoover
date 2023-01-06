@@ -189,7 +189,7 @@ h3mobile {
   opacity: 1;
   transition-duration: 2s;
   transform: scale(1.08);
-  z-index: 2;
+  z-index: -20;
   width: 80%;
 }
 
