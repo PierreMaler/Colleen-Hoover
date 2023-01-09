@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-import {SliderData} from './SliderData'
+import {SliderData2} from './SliderData2'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import styles from '../styles/Home.module.css';
 
 
 
 
-const ImageSlider = ({slides}) => {
+const ImageSliderMobile2 = ({slides}) => {
 
     React.useEffect(() =>
         {
@@ -47,7 +47,7 @@ const ImageSlider = ({slides}) => {
 
     return (
         
-        <section className="slider">
+        <section className="slidermobile">
             <div id='fleches' className={styles.fleches}> 
             <div className={styles.flecheleft}>
                 <lottie-interactive
@@ -57,7 +57,7 @@ const ImageSlider = ({slides}) => {
                     onClick={prevSlide}
                 />
             </div>
-            <div className={styles.flecheright} >
+            <div className={styles.flecheright}>
                 <lottie-interactive
                     path="/animations/flechenextbleu.json"
                     autoplay
@@ -68,26 +68,23 @@ const ImageSlider = ({slides}) => {
             </div>
             
             
-            
 
             {/* <img className="leftarrow" src="/images/flecheprevious.png" onClick={prevSlide}/>
             <img className="rightarrow" src="/images/flechenext.png" onClick={nextSlide}/> */}
             {/* <FaArrowAltCircleLeft className="leftarrow" onClick={prevSlide} />
             <FaArrowAltCircleRight className="rightarrow" onClick={nextSlide} /> */}
-            {SliderData.map((slide, index) => {
+            {SliderData2.map((slide, index) => {
                 return (
-                    <div className={index === current ? 'slide active' : 'slide'} key={index}>
-                        {index === current && (<div className='slider-image-container'>
+                    <div className={index === current ? 'slide activemobile' : 'slidemobile'} key={index}>
+                        {index === current && (<div className='slider-image-containermobile'>
                         
-                        <img className='slider-image' src={slide.image} alt="travel image" />
-
-                        <button className={styles.boutoncommandercarrouseldesktop } ><a  href={slide.link} target="_blank">
+                        <img className='slider-imagemobile' src={slide.image} alt="travel imagemobile" />                        <button className={styles.boutoncommandercarrousel } ><a  href={slide.link} target="_blank">
                 Commander
               </a> </button>
+                        <div className='slider-textmobile'>
+                    <div className='slider-textmobile-title-container'><h3mobile>{slide.name}</h3mobile></div>
 
-                        <div className='slider-text'>
-                        <h3>{slide.name}</h3>
-                        <p className='slider-description' >{slide.description}</p>
+                        <p className='slider-descriptionmobile' >{slide.description}</p>
                         </div>
                         
                     </div>)}
@@ -99,4 +96,4 @@ const ImageSlider = ({slides}) => {
     )
 }
 
-export default ImageSlider
+export default ImageSliderMobile2

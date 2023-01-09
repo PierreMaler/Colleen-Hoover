@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-import {SliderData} from './SliderData'
+import {SliderData2} from './SliderData2'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import styles from '../styles/Home.module.css';
 
 
 
 
-const ImageSlider = ({slides}) => {
+const ImageSlider2 = ({slides}) => {
 
     React.useEffect(() =>
         {
@@ -74,12 +74,15 @@ const ImageSlider = ({slides}) => {
             <img className="rightarrow" src="/images/flechenext.png" onClick={nextSlide}/> */}
             {/* <FaArrowAltCircleLeft className="leftarrow" onClick={prevSlide} />
             <FaArrowAltCircleRight className="rightarrow" onClick={nextSlide} /> */}
-            {SliderData.map((slide, index) => {
+            {SliderData2.map((slide, index) => {
                 return (
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
                         {index === current && (<div className='slider-image-container'>
                         
                         <img className='slider-image' src={slide.image} alt="travel image" />
+                        <button className={styles.boutoncommandercarrouseldesktop } ><a  href={slide.link} target="_blank">
+                Commander
+              </a> </button>
                         <div className='slider-text'>
                         <h3>{slide.name}</h3>
                         <p className='slider-description' >{slide.description}</p>
@@ -94,4 +97,4 @@ const ImageSlider = ({slides}) => {
     )
 }
 
-export default ImageSlider
+export default ImageSlider2

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {SliderData} from './SliderDataMobile'
+import {SliderData} from './SliderData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import styles from '../styles/Home.module.css';
 
@@ -82,7 +82,7 @@ const ImageSliderMobile = ({slides}) => {
                 Commander
               </a> </button>
                         <div className='slider-textmobile'>
-                        <h3mobile>{slide.name}</h3mobile>
+                    <div className='slider-textmobile-title-container'><h3mobile>{slide.name}</h3mobile></div>
 
                         <p className='slider-descriptionmobile' >{slide.description}</p>
                         </div>

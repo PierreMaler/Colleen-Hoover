@@ -1,31 +1,44 @@
 // import Hades from 'pages/img1.jpg';
 export const SliderData = [
     {
+        image: '/images/intégration/092Poche2.png',
+        description:<p>Lily Blossom Bloom n'a pas eu une enfance très facile, entre un père violent et une mère qu'elle trouve soumise, mais elle a su s'en sortir dans la vie et est à l'aube de réaliser son grand rêve : ouvrir, à Boston, une boutique de fleurs.
+        Elle&nbsp;vient de rencontrer un neurochirurgien, Ryle, charmant, ambitieux, visiblement aussi attiré par elle qu'elle l'est par lui. Le chemin de Lily vers le bonheur semble tout tracé. Elle hésite pourtant encore un peu : il n'est pas facile pour elle de se lancer dans une histoire sentimentale, avec des parents comme les siens.
+        <br/>
+        Choisir cette vie, c'est aussi tirer un trait sur son passé et Atlas, ce jeune homme qui a été son premier amour et qui a profondément marqué son adolescence.
+        L'avenir semble limpide et simple mais il peut s'obscurcir très&nbsp;vite</p>,
+        name:'Jamais Plus',
+        link:'https://www.amazon.fr/Jamais-plus-Colleen-Hoover/dp/2755637080/ref=sr_1_1?keywords=jamais+plus+colleen+hoover&qid=1673282681&s=books&sprefix=jamais+plus%2Cstripbooks%2C70&sr=1-1',
+    },
+    {
         image: '/images/intégration/2023_01_PCH_TOO_LATE_3D_RVB.png',
         description:<p>Sloan n'a jamais eu une vie facile et elle a toujours dû se battre pour obtenir ce dont elle avait besoin. C'est justement pour échapper à une situation sans issus qu'elle a accepté de partager la vie de son petit ami, Asa. Depuis, elle étouffe dans cette relation toxique ; de plus, c'est un homme à la morale douteuse qui se livre à de multiples trafics. Elle n'a pas le choix de partir et décide de supporter ce qu'il lui fait subir jusqu'à ce qu'elle puisse lui échapper. <br/>Seule.
         Personne ne peut l'aider à sortir de cette situation. Sauf peut-être Carter, cet étudiant aux multiples secrets qu'elle vient de rencontrer.<br/>
         Asa est prêt à tout pour la persuader qu'elle ne peut pas se passer de lui.
         Personne ne s'interposera entre Sloan et lui. Sauf peut-être&nbsp;Carter.</p>,
-        name:'Too Late'
+        name:'Too Late',
+        link:'https://www.amazon.fr/Too-late-Colleen-Hoover/dp/2755641533/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=WPXJMOTC6IWF&keywords=too+late+colleen+hoover&qid=1673282719&s=books&sprefix=too+late+colleen+hoover%2Cstripbooks%2C65&sr=1-1',
     },
     {
         image: '/images/intégration/2023_01_PCH_COEURS&AMES_3D_RVB.png',
         description:<p>Beyah a grandi dans la pauvreté, auprès d'une mère droguée qui l'a négligée durant toute son enfance. À dix-neuf ans, elle est enfin prête à voler de ses propres ailes. Seule, avec détermination, elle a su trouver une issue et s'apprête à entrer à l'université avec une bourse obtenue grâce à ses talents de sportive. Alors qu'elle est à deux mois de ce grand départ, la mort brutale de sa mère la plonge dans une situation très compliquée. Sans logement, elle n'a qu'un seul recours : chercher refuge auprès de son père, qui ne s'est jamais occupé d'elle, mais a conservé un lien ténu avec elle.<br/>
 
-        Beyah va débarquer dans sa maison sur une presqu'île touristique où elle va faire connaissance avec les membres de la famille qu'il a bâtie loin d'elle: sa demi-soeur et sa belle-mère.<br/>
+        Beyah va débarquer dans sa maison sur une presqu'île touristique où elle va faire connaissance avec les membres de la famille qu'il a bâtie loin d'elle: sa&nbsp;demi-soeur et sa belle-mère.<br/>
         
         À sa grande surprise, elle est accueillie chaleureusement dans ce milieu si différent du sien. Elle va aussi rencontrer Samson, un garçon de son âge, qui vit dans la somptueuse maison voisine. Ils n'ont rien en commun, pourtant elle sent en lui une âme soeur. Au coeur de cet été, elle va se rapprocher de lui et apprendre à connaître ce mystérieux jeune homme.</p>,
-        name:'Cœurs et âmes'
+        name:'Cœurs et âmes',
+        link:'https://livre.fnac.com/a17402020/Colleen-Hoover-Coeurs-et-ames-poche#omnsearchpos=2',
     },
     {
         image: '/images/intégration/2023_01_PCH_MAYBE_NOT_3D_RVB.png',
         description: <p>Il s'agit d'un spin-off de Maybe Someday ! <br/>Quand il a l'opportunité de s'installer en colocation avec une jolie blonde, Warren accepte sans hésiter. Ce&nbsp;pourrait être une expérience excitante...
-        Mais peut-être pas.<br/>
+        Mais&nbsp;peut-être pas.<br/>
         
         Surtout quand cette coloc est Bridgette, une fille un peu froide et très têtue. Rapidement, la tension est tellement palpable que ces deux-là ont du mal à rester dans la même pièce. Mais Warren a une théorie : quand on est capable de tant de haine pour une personne, on peut facilement transformer ces sentiments en passion. Et il a bien l'intention de le tester sur Bridgette. Réussira-t-il à réchauffer son coeur et lui apprendre à aimer ?<br/>
         
         Peut-être. Mais peut-être pas.</p>,
-        name:'Maybe not'
+        name:'Maybe not',
+        link:'https://livre.fnac.com/a17402022/Maybe-Maybe-not-poche-NE-Colleen-Hoover#omnsearchpos=20',
     },
     {
         image: '/images/intégration/2023_01_PCH_MAYBE_NOW_3D_RVB.png',
@@ -34,12 +47,14 @@ export const SliderData = [
         Ridge et Sydney sont profondément amoureux mais il reste des questions non résolues. Comment vivre tranquillement alors que Maggie, l'ex de Ridge est maintenant seule et doit faire face à ses graves problèmes de santé sans aucune aide ? Si Sydney s'en veut toujours d'avoir été la cause de la séparation de Ridge et Maggie, elle a du mal à accepter ce qui les lie encore.<br/>
         Quant à Maggie, elle a toujours été consciente que sa pathologie réduirait son espérance de vie mais doit-elle se refuser toute chance de bonheur ?<br/>
         Ridge et Sydney et Maggie continuent leur vie, ensemble ou de leur côté, au milieu de leurs amis, toujours aussi drôles et déjantés et dans une atmosphère musicale, celle du groupe de Ridge et son&nbsp;frère.</p>,
-        name:'Maybe now'
+        name:'Maybe now',
+        link: 'https://livre.fnac.com/a17402023/Maybe-Maybe-now-poche-NE-Colleen-Hoover#omnsearchpos=1',
     },
     {
         image: '/images/intégration/2023_01_PCH_REGRETTING_YOU_3D_RVB.png',
         description:<p>La fille de Morgan, Clara, ne pourrait pas être plus différente qu'elle. Devenue mère très jeune, Morgan craint plus que tout que Clara fasse les mêmes erreurs qu'elle. Elle mène une vie sans projet ni ambition, qu'elle commence à trouver ennuyeuse et qui la rend de plus en plus invisible auprès des autres. Clara aime sa mère bien sûr, mais ne se reconnaît pas dans cette femme fade et sans volonté à ses yeux. Elle est bien plus proche de son père, Chris, et de sa tante Jenny, la soeur de Morgan. Mais leur monde va voler en éclats lorsque Chris est victime d'un accident de la route qui va les obliger à reconsidérer toute leur vie et leurs relations. Car, au-delà du drame qu'il suscite, Morgan et Clara vont devoir apprendre à communiquer et trouver un sens à leur&nbsp;vie.</p>,
-        name:'Regretting You'
+        name:'Regretting You',
+        link: 'https://livre.fnac.com/a17402025/Colleen-Hoover-Regretting-you-poche-NE#omnsearchpos=1',
     },
     {
         image: '/images/intégration/2023_01_PCH_Verity_3D_RVB.png',
@@ -57,14 +72,16 @@ export const SliderData = [
         
         Pour Lowen, aussi incongrue que soit la proposition, l'occasion est beaucoup trop belle pour ne pas la saisir, et Jeremy beaucoup trop séduisant pour qu'elle lui dise non. Mais en découvrant, dans les papiers de Verity, ce qui semble être son autobiographie, Lowen va voir se dessiner, page après page, le portrait d'une femme épouvantable, prête au plus atroce des crimes pour ne pas perdre ce qu'elle a, et prompte à toutes les perversités lorsqu'elle se sent menacée.
         Et aux yeux de Verity, Lowen est désormais une&nbsp;menace.</p>,
-        name:'Verity'
+        name:'Verity',
+        link:'https://livre.fnac.com/a17402041/Colleen-Hoover-Verity-NE#omnsearchpos=1',
     },
     {
         image: '/images/intégration/2023_PCH_AllYourPerfects_3D_RVB.png',
-        description:<p>Graham et Quinn sont tombés profondément amoureux il y a sept ans. Après une rencontre improbable, ils ont vite compris qu'ils étaient faits l'un pour l'autre. Et puis ils se sont mariés et ont commencé à parler de fonder une famille. <br/>
+        description:<p>Graham et Quinn sont tombés profondément amoureux il y a sept ans. Après&nbsp;une rencontre improbable, ils ont vite compris qu'ils étaient faits l'un pour l'autre. Et puis ils se sont mariés et ont commencé à parler de fonder une famille. <br/>
         Les mois, les années ont passé et Quinn et Graham ne sont toujours que deux et leur couple semble s'effriter un peu plus chaque jour. Le désir de Quinn de devenir mère est devenue une obsession qu'elle n'est plus très sûre que Graham partage totalement. Leur relation se distend et ils semblent de moins en moins se comprendre. <br/>
         Est-ce que l'amour même quand il est aussi fort peut mourir quand les épreuves se multiplient ou au contraire peut-il en sortir renforcé&nbsp;?</p>,
-        name:'All Your Perfects'
+        name:'All Your Perfects',
+        link: 'https://livre.fnac.com/a17402019/Colleen-Hoover-All-your-perfect-poche-NE#omnsearchpos=1',
     },
     {
         image: '/images/intégration/2023_01_PCH_APREMIEREVUE_3D_RVB.png',
@@ -81,7 +98,8 @@ export const SliderData = [
         parfois trompeuses.<br/>
         
         Quand la vérité se dévoile, lorsque des secrets bien gardés commencent à émerger, Merit est confrontée à une tâche difficile : remettre toutes ses certitudes en question.</p>,
-        name:'À première vue'
+        name:'À première vue',
+        link: 'https://livre.fnac.com/a13646854/Colleen-Hoover-A-premiere-vue#omnsearchpos=1',
     },
     // {
     //     image: '/images/08THANATOSDESKTOP.png',

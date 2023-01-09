@@ -3,7 +3,9 @@ import styles from '../styles/Home.module.css';
 import ImageSlider from "../components/ImageSlider";
 import ImageSlider2 from "../components/ImageSlider2";
 import ImageSliderMobile from "../components/ImageSliderMobile";
+import ImageSliderMobile2 from "../components/ImageSliderMobile2";
 import { SliderData } from "../components/SliderData";
+import { SliderData2 } from "../components/SliderData2";
 import  { Breakpoint, BreakpointProvider } from 'react-socks';
 import ResponsiveePlayer from "../components/ResponsivePlayer";
 import {TiSocialFacebookCircular, TiSocialInstagram} from 'react-icons/ti';
@@ -201,18 +203,18 @@ export default function Home() {
 
               <div className={styles.screen} onClick={gotosynopsis} ref={introduction}>
 
-              <img className={styles.bgimage} src="/images/bg/intro2.jpg" alt="background image for introduction" />
+              {/* <img className={styles.bgimage} src="/images/bg/intro2.jpg" alt="background image for introduction" /> */}
 
-                {/* <lottie-interactive
-                  path="/animations/data2.json"
+                <lottie-interactive
+                  path="/animations/Intro_Colleen_Desktop_3.json"
                   interaction="play-once"
                   class="tailleintro"
-                /> */}
+                />
 
               </div>
 
               <section className={styles.screen} ref={synopsis}>
-
+              <div className={styles.titlecontainer}><h2auteur>Colleen Hoover</h2auteur></div>
 
                 <div className={styles.rachellapresentation}>
 
@@ -220,15 +222,15 @@ export default function Home() {
 
                   
                   
-                  <img className={styles.rachella} src="/images/HOOVER Colleen TOP@Julien Poupard.JPG" /><h2auteur>Colleen Hoover</h2auteur>
+                  <img className={styles.rachella} src="/images/HOOVER-Colleen30@Julien-Poupard-V2.jpg" />
                   <p className={styles.rachelpresentation}
                   
 >                  Autrice éclectique, Colleen Hoover (42 ans) est devenue en quelques années l’une
-des plus grandes autrices de New Romance®. Elle aborde dans ses livres avec
+des plus grandes autrices de New Romance<sup>®</sup>. Elle aborde dans ses livres avec
 sensibilité, ironie et intelligence, de nombreux sujets de société, tels que les
 violences faites aux femmes, la fertilité au sein du couple ou encore le handicap.
 <span className="italique">Jamais plus</span> (150 000 exemplaires vendus en France) est en cours d’adaptation
-par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.
+par Justin Baldoni<span className="italique">(Jane the Virgin)</span>.
                   </p>
                 </div>
 
@@ -245,10 +247,10 @@ par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.
 
                 <div className={styles.paragraph}>
                   <h2>À tout jamais</h2>
-                  <p2>Lily, depuis que sa fille Emerson est née, lui a promis que le cycle de la violence s'arrêterait avec elles. Que jamais plus, les femmes de leur famille n'endureraient des abus. Alors elle a pris la décision de quitter son mari et père de sa petite fille. Elle ne s'attendait pas à croiser Atlas, son amour d'adolescente par hasard, et elle ne sait pas quelle place il pourrait occuper dans sa vie. A-telle seulement envie de le revoir ? D'avoir à nouveau une vie sentimentale ? De recommencer sa vie et de croire à l'amour éternel, elle qui a appris de la plus dure des façons qu'il était bien difficile à trouver. Atlas n'est plus du tout le même que l'adolescent en perdition qu'elle a connu. Il a un restaurant, a passé de longues années loin d'elle. Leur histoire peut-elle recommencer là où elle s'était arrêtée ?</p2>
+                  <p2>Lily, depuis que sa fille Emerson est née, lui a promis que le cycle de la violence s'arrêterait avec elles. Que jamais plus, les femmes de leur famille n'endureraient des abus. Alors elle a pris la décision de quitter son mari et père de sa petite fille. Elle ne s'attendait pas à croiser Atlas, son amour d'adolescente par hasard, et elle ne sait pas quelle place il pourrait occuper dans sa vie. A-t-elle seulement envie de le revoir ? D'avoir à nouveau une vie sentimentale ? De recommencer sa vie et de croire à l'amour éternel, elle qui a appris de la plus dure des façons qu'il était bien difficile à trouver. Atlas n'est plus du tout le même que l'adolescent en perdition qu'elle a connu. Il a un restaurant, a passé de longues années loin d'elle. Leur histoire peut-elle recommencer là où elle s'était arrêtée ?</p2>
                 </div>
                 <img className={styles.tome3d} src="/images/2022_NR_A-TOUT-JAMAIS_3D_RVB.png" />
-                <button className={styles.boutoncommander} ><a  href='https://cutt.ly/XTDsJvz' target="_blank">
+                <button className={styles.boutoncommander} ><a  href='https://livre.fnac.com/a17402043/Colleen-Hoover-A-tout-jamais#omnsearchpos=1' target="_blank">
                 Commander
               </a></button>
 
@@ -358,10 +360,13 @@ Ce troisième volume approfondi les thèmes sensibles et le lien sentimentale qu
 
 <div className={styles.paragraph3}>
     <h2>Le phénomène Colleen Hoover</h2>
-    <p4>
+    {/* <p4>
     Avec ses 300 millions de vues sur Webtoon et ses 9,72 étoiles, il s’agit d’un des webcomics anglophones les plus populaires du moment ! Son succès vient d’un mélange réussi entre la réécriture moderne de la mythologie, son humour et le développement de thèmes adultes, comme les violences sexuelles et la dépression. Bien qu’elle se concentre sur le dieu des Enfers et la déesse du Printemps, la série raconte également l’histoire de plusieurs membres du Panthéon, à savoir Éros, Artémis, Héra, Aphrodite, Apollon et Zeus. Leurs histoires, mêlées à celle des héros principaux, forment un récit profond et varié. Entre fastes divins et sujets sérieux, le style du dessin magnifie l’ensemble.
-    </p4>
+    </p4> */}
   </div>
+  <div className={styles.chiffresdesktopcontainer} >
+                  <img className={styles.chiffresdesktop} src="/images/bg/chiffres.png" alt="background image for introduction" />
+                </div>
 
             <img className={styles.bgimage} src="/images/bg/bloc66.jpg" alt="background image for introduction" />
 </section>
@@ -372,7 +377,7 @@ Ce troisième volume approfondi les thèmes sensibles et le lien sentimentale qu
   <h2>Les autres ouvrages</h2>
 </div>
 
-<ImageSlider2 slides={SliderData}/>
+<ImageSlider2 slides={SliderData2}/>
 
 
 
@@ -494,13 +499,13 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
                         
 
               <button className={styles.menu__item2mobile} onClick={gotointroductionmobile} >INTRODUCTION</button>
-              <button className={styles.menu__item2mobile} onClick={gotosynopsismobile} >TOME 1</button>
-              <button className={styles.menu__item2mobile} onClick={gotopersonnagesmobile} >TOME 2</button>
-              <button className={styles.menu__item2mobile} onClick={gotosynopsis3mobile} >TOME 3</button>
-              <button className={styles.menu__item2mobile} onClick={gotovideosmobile} >PERSONNAGES</button>
-              <button className={styles.menu__item2mobile} onClick={gotoauteuremobile} >TRAILER</button>
               <button className={styles.menu__item2mobile} onClick={gotophenomenemobile} >AUTEURE</button>
+              <button className={styles.menu__item2mobile} onClick={gotopersonnagesmobile} >À TOUT JAMAIS</button>
+              <button className={styles.menu__item2mobile} onClick={gotoauteuremobile} >TRAILER</button>
+              <button className={styles.menu__item2mobile} onClick={gotovideosmobile} >NOUVEAUTÉS</button>
+              {/* <button className={styles.menu__item2mobile} onClick={gotoauteuremobile} >TRAILER</button> */}
               <button className={styles.menu__item2mobile} onClick={gotoprecommandemobile} >PHÉNOMÈNE</button>
+              <button className={styles.menu__item2mobile} onClick={gotogoodiesmobile} >AUTRES<br/>OUVRAGES</button>
               {/* <button className={styles.menu__item2mobile} onClick={gotoprecommandemobile} >GOODIES</button> */}
 
                     </ul>
@@ -509,8 +514,13 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
             </>
             
           <section className={styles.screenmobile} ref={introductionmobile}>
+          <lottie-interactive
+                  path="/animations/Intro_Colleen_Mobile_3.json"
+                  interaction="play-once"
+                  class="tailleintro"
+                />
             
-          <img className={styles.bgimage} src="/images/bg/introm.jpg" alt="background image for introduction" />
+          {/* <img className={styles.bgimage} src="/images/bg/introm.jpg" alt="background image for introduction" /> */}
           </section>
 
           <section className={styles.screenmobile} ref={phenomenemobile}>
@@ -522,7 +532,7 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
               />
                 <h2mobile3>Colleen Hoover</h2mobile3>
                 <p className={styles.rachelpresentationmobile}>                  Autrice éclectique, Colleen Hoover (42 ans) est devenue en quelques années l’une
-des plus grandes autrices de New Romance®. Elle aborde dans ses livres avec
+des plus grandes autrices de New Romance<sup>®</sup>. Elle aborde dans ses livres avec
 sensibilité, ironie et intelligence, de nombreux sujets de société, tels que les
 violences faites aux femmes, la fertilité au sein du couple ou encore le handicap.
 <span className="italique">Jamais plus</span> (150 000 exemplaires vendus en France) est en cours d’adaptation
@@ -533,7 +543,7 @@ par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.</p>
                 <img className={styles.bgimage} src="/images/bg/bloc11m.jpg" alt="background image for the phenomene"/>
 
           </section>
-          <section className={styles.screenmobile} ref={phenomenemobile}>
+          <section className={styles.screenmobile} ref={personnagesmobile}>
           <div className={styles.paragraphmobile2}>
               <img
               className={styles.bookmobile}
@@ -541,7 +551,7 @@ par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.</p>
               alt="picture of the author"
               />
             
-              <button className={styles.boutoncommandercenter } ><a  href='https://cutt.ly/XTDsJvz' target="_blank">
+              <button className={styles.boutoncommandercenter } ><a  href='https://livre.fnac.com/a17402043/Colleen-Hoover-A-tout-jamais#omnsearchpos=1' target="_blank">
                 Commander
               </a> </button>
                 <h2mobile3>À tout jamais</h2mobile3>
@@ -576,13 +586,19 @@ par Justin Baldoni <span className="italique">(Jane the Virgin)</span>.</p>
           </section>
 
           <section className={styles.screenmobileend} ref={precommandemobile}>
-          <div className={styles.paragraphmobile}>
-                  <h2mobile4>Le phénomène <br/>Colleen Hoover</h2mobile4>
+          <div className={styles.paragraphmobile3modified}>
+                  <h2mobile>Le phénomène <br/>Colleen Hoover</h2mobile>
+
+                  
          
-                  <p className={styles.rachelpresentationmobile}>
+                  {/* <p className={styles.rachelpresentationmobile}>
                   Avec ses 300 millions de vues sur Webtoon et ses 9,72 étoiles, il s’agit d’un des webcomics anglophones les plus populaires du moment ! Son succès vient d’un mélange réussi entre la réécriture moderne de la mythologie, son humour et le développement de thèmes adultes, comme les violences sexuelles et la dépression. Bien qu’elle se concentre sur le dieu des Enfers et la déesse du Printemps, la série raconte également l’histoire de plusieurs membres du Panthéon, à savoir Éros, Artémis, Héra, Aphrodite, Apollon et Zeus. Leurs histoires, mêlées à celle des héros principaux, forment un récit profond et varié. Entre fastes divins et sujets sérieux, le style du dessin magnifie l’ensemble.
-                  </p>
+                  </p> */}
                 </div>
+                <div className={styles.chiffrescontainer} >
+                  <img className={styles.chiffres} src="/images/bg/chiffres-vertical.png" alt="background image for introduction" />
+                </div>
+
           {/* <div className={styles.paragraphmobile}>
               <p4>À livre exceptionnel, lancement exceptionnel ! <br/><br/>
 
@@ -615,12 +631,12 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
               
 <img className={styles.bgimage2} src="/images/bg/bloc55m.jpg" alt="background image for commands" />
           </section>
-          <section className={styles.screenmobile} ref={videosmobile}>
+          <section className={styles.screenmobile} ref={goodiesmobile}>
           <div className={styles.paragraphmobile3}>
-                <h2mobile>Les nouveautés</h2mobile>
+                <h2mobile>Les autres ouvrages</h2mobile>
               </div>
 
-              <ImageSliderMobile slides={SliderData}/>
+              <ImageSliderMobile2 slides={SliderData2}/>
               <footer className={styles.footermobile}>
   <p>
     <a href='https://www.hugoetcie.fr/' >© 2023 Hugo Publishing</a>
