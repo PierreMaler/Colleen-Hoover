@@ -8,7 +8,7 @@ import { SliderData } from "../components/SliderData";
 import { SliderData2 } from "../components/SliderData2";
 import  { Breakpoint, BreakpointProvider } from 'react-socks';
 import ResponsiveePlayer from "../components/ResponsivePlayer";
-import {TiSocialFacebookCircular, TiSocialInstagram} from 'react-icons/ti';
+import {TiSocialFacebookCircular, TiSocialInstagram, } from 'react-icons/ti';
 
 
 export default function Home() {
@@ -436,8 +436,10 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
   <p>
     <a href='https://www.hugoetcie.fr/' >© 2023 Hugo Publishing</a>
     &nbsp; - &nbsp;
-    <a className={styles.reseaux} href='https://www.instagram.com/loreolympus_officiel/?hl=fr'><TiSocialInstagram/></a>
-    <a className={styles.reseaux} href='https://www.facebook.com/LoreOlympusOfficiel'><TiSocialFacebookCircular/></a>     
+    <a className={styles.reseaux} href='https://www.instagram.com/hugonewromance/?hl=fr' target="_blank"><TiSocialInstagram/></a>
+    <a className={styles.reseaux} href='https://www.facebook.com/HugoNewRomance/' target="_blank"><TiSocialFacebookCircular/></a>     
+ 
+
         
         &nbsp; - &nbsp;
         <a className={styles.credits} href='https://www.linkedin.com/in/pierremaler/' target="_blank">Crédits</a>
@@ -641,8 +643,8 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
   <p>
     <a href='https://www.hugoetcie.fr/' >© 2023 Hugo Publishing</a>
     &nbsp; - &nbsp;
-    <a className={styles.reseauxmobile} href='https://www.instagram.com/loreolympus_officiel/?hl=fr'><TiSocialInstagram/></a>
-    <a className={styles.reseauxmobile} href='https://www.facebook.com/LoreOlympusOfficiel'><TiSocialFacebookCircular/></a>
+    <a className={styles.reseauxmobile} href='https://www.instagram.com/hugonewromance/?hl=fr' target="_blank"><TiSocialInstagram/></a>
+    <a className={styles.reseauxmobile} href='https://www.facebook.com/HugoNewRomance/' target="_blank"><TiSocialFacebookCircular/></a>
     {/* <a href=''><TiSocialTwitter/></a> */}
     
     &nbsp; - &nbsp;
@@ -756,8 +758,8 @@ Pour recevoir votre pack collector, rien de plus simple :<br/><br/>
   <p> */}
     {/* <a href='https://www.hugoetcie.fr/' >© 2023 Hugo Publishing</a>
     &nbsp; - &nbsp;
-    <a className={styles.reseauxmobile} href='https://www.instagram.com/loreolympus_officiel/?hl=fr'><TiSocialInstagram/></a>
-    <a className={styles.reseauxmobile} href='https://www.facebook.com/LoreOlympusOfficiel'><TiSocialFacebookCircular/></a>
+    <a className={styles.reseauxmobile} href='https://www.instagram.com/hugonewromance/?hl=fr'><TiSocialInstagram/></a>
+    <a className={styles.reseauxmobile} href='https://www.facebook.com/HugoNewRomance/'><TiSocialFacebookCircular/></a>
 
     
     &nbsp; - &nbsp;
